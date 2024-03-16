@@ -1,0 +1,30 @@
+@use '../abstract/mixin';
+
+.container{
+    width: 90%;  
+}
+
+@include mixin.media-sm {
+    .container{
+        width: 600px;
+    }
+}
+
+@include mixin.media-md {
+    .container{
+        width: 700px;
+    }
+}
+
+@include mixin.media-lg {
+    .container{
+        width: 900px;
+    }
+}
+
+@include mixin.media-xl {
+    .container {
+        width: 1000px;
+    }
+}
+
